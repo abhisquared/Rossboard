@@ -19,23 +19,23 @@ function keyfunc(event) {
 function makesound(key) {
   switch (key) {
     case "w":
-      var wdrum = new Audio("C:/Users/Abhishek/Desktop/Drum Kit Starting Files/sounds/crash.mp3");
+      var wdrum = new Audio("sounds/crash.mp3");
       wdrum.play();
       break;
     case "a":
-      var adrum = new Audio("C:/Users/Abhishek/Desktop/Drum Kit Starting Files/sounds/Single-yard-dog-woof.mp3");
+      var adrum = new Audio("sounds/Single-yard-dog-woof.mp3");
       adrum.play();
       break;
     case "s":
-      var sdrum = new Audio("C:/Users/Abhishek/Desktop/Drum Kit Starting Files/sounds/Single-cow-moo.mp3");
+      var sdrum = new Audio("sounds/Single-cow-moo.mp3");
       sdrum.play();
       break;
     case "d":
-      var ddrum = new Audio("C:/Users/Abhishek/Desktop/Drum Kit Starting Files/sounds/Doorbell-ring-ding-dong-sound.mp3");
+      var ddrum = new Audio("sounds/Doorbell-ring-ding-dong-sound.mp3");
       ddrum.play();
       break;
     case "j":
-      var jdrum = new Audio("C:/Users/Abhishek/Desktop/Drum Kit Starting Files/sounds/Glass-breaking-sound.mp3");
+      var jdrum = new Audio("Csounds/Glass-breaking-sound.mp3");
       jdrum.play();
       break;
     case "k":
